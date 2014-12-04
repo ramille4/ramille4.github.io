@@ -17,4 +17,10 @@
       icon.toggleClass( "ui-icon-minusthick ui-icon-plusthick" );
       icon.closest( ".portlet" ).find( ".portlet-content" ).toggle();
     });
+    
+  $( ".newport" ).click(function() {  
+		$( this ).after('<div class="portlet"></div>' + '<div class="portlet-header">test</div>' +
+            '<div class="portlet-content">test</div>' +
+            '</div>');
   });
+});

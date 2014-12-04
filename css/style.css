@@ -35,3 +35,7 @@
     margin: 0 0.1em 0.1em 0;
     height: 50px;
   }
+  .newport {
+    text-align: center;
+    cursor: pointer;
+  }
