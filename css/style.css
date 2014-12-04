@@ -1,6 +1,8 @@
  body {
     min-width: 520px;
     padding-top: 20px;
+	background-image: url("http://static.parade.com/wp-content/uploads/2014/03/Why-Do-Stars-All-Look-Almost-the-Same-Size-ftr.jpg");
+	padding-left: 100px;
   }
    h3 {
     text-align: center;
@@ -12,6 +14,16 @@
     width: 200px;
     height: 95%;
     padding-bottom: 100%;
+	opacity: 0.96;
+    float: left;
+    margin-right:10px;
+    background-color: #EFEFEF;
+  }
+    #newcol {
+    width: 200px;
+    height: 95%;
+    padding-bottom: 100%;
+	opacity: 0.85;
     float: left;
     margin-right:10px;
     background-color: #EFEFEF;
@@ -19,6 +31,7 @@
   .portlet {
     margin: 1em 1em 0;
     padding: 0.3em;
+	
   }
   .portlet-header {
     padding: 0.2em 0.3em;
@@ -49,45 +62,3 @@
   border: 0;
   margin-top: 3px;
   }
-  .ui-menu { 
-    overflow: hidden;
-}
-.ui-menu .ui-menu {
-    overflow: visible !important;
-}
-.ui-menu > li { 
-    float: left;
-    display: block;
-    width: auto !important;
-}
-.ui-menu ul li {
-    display:block;
-    float:none;
-}
-.ui-menu ul li ul {
-    left:120px !important;
-    width:100%;
-}
-.ui-menu ul li ul li {
-    width:auto;
-}
-.ui-menu ul li ul li a {
-    float:left;
-}
-.ui-menu > li {
-    margin: 5px 5px !important;
-    padding: 0 0 !important;
-}
-.ui-menu > li > a { 
-    float: left;
-    display: block;
-    clear: both;
-    overflow: hidden;
-}
-.ui-menu .ui-menu-icon { 
-    margin-top: 0.3em !important;
-}
-.ui-menu .ui-menu .ui-menu li { 
-    float: left;
-    display: block;
-}
