@@ -21,8 +21,7 @@
     });
     
   $( ".newport" ).click(function() {  
-		$( this ).after('<div id="newportlet" class="portlet">' + '<div id="newheader" class="portlet-header">test1</div>' +
-		$( this ).after('<div id="newportlet" class="portlet">' + '<div id="newheader" class="portlet-header">test1</div>' +
+	$( this ).after('<div id="newportlet" class="portlet">' + '<div id="newheader" class="portlet-header">test1</div>' +
             '<div class="portlet-content">Lorem ipsum dolor sit amet<div id="pb6" style="text-align: center;">0% done</div></div>' +
             '</div>');
     $('#newportlet').addClass("ui-widget ui-widget-content ui-helper-clearfix ui-corner-all");
