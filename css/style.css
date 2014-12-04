@@ -4,13 +4,16 @@
   }
    h3 {
     text-align: center;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0.1em;
   }
   .column {
     width: 200px;
     height: 95%;
     float: left;
     margin-right:10px;
-    background-color: tan;
+    background-color: #D3D3D3;
   }
   .portlet {
     margin: 1em 1em 0;
@@ -42,7 +45,7 @@
   }
   hr {
   background-color: #fff;
-  height: 5px;
+  height: 10px;
   border: 0;
   margin-top: 3px;
   }
