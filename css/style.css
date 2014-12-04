@@ -11,6 +11,7 @@
   .column {
     width: 200px;
     height: 95%;
+    padding-bottom: 100%;
     float: left;
     margin-right:10px;
     background-color: #EFEFEF;
