@@ -1,3 +1,5 @@
+  $( "#nav" ).menu({position: {at: "left bottom"}});
+  
   $(function() {
     $( ".column" ).sortable({
       connectWith: ".column",
