@@ -19,8 +19,11 @@
     });
     
   $( ".newport" ).click(function() {  
-		$( this ).after('<div class="portlet"></div>' + '<div class="portlet-header">test</div>' +
-            '<div class="portlet-content">test</div>' +
+		$( this ).after('<div id="newportlet" class="portlet">' + '<div id="newheader" class="portlet-header">test1</div>' +
+            '<div class="portlet-content">test2</div>' +
             '</div>');
+    $('#newportlet').addClass("ui-widget ui-widget-content ui-helper-clearfix ui-corner-all");
+    $('#newheader').addClass("ui-widget-header ui-corner-all");
+    $('#newheader').prepend("<span class='ui-icon ui-icon-minusthick portlet-toggle'></span>");
   });
 });

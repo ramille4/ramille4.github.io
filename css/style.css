@@ -6,8 +6,8 @@
   }
   .column {
     width: 200px;
+    height: 95%;
     float: left;
-    padding-bottom: 100px;  
     margin-right:10px;
 	background-color: tan;
   }
