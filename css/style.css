@@ -1,5 +1,6 @@
   body {
     min-width: 520px;
+    padding-top: 20px;
   }
    h3 {
     text-align: center;
@@ -9,7 +10,7 @@
     height: 95%;
     float: left;
     margin-right:10px;
-	background-color: tan;
+    background-color: tan;
   }
   .portlet {
     margin: 1em 1em 0;
@@ -39,3 +40,9 @@
     text-align: center;
     cursor: pointer;
   }
+  hr {
+  background-color: #fff;
+  height: 5px;
+  border: 0;
+  margin-top: 3px;
+}
