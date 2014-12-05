@@ -13,9 +13,6 @@ GetClock();
 setInterval(GetClock,1000);
 };
 
-  
-  $( "#nav" ).menu({position: {at: "left bottom"}});
-  
   $(function() {
     $( ".column" ).sortable({
       connectWith: ".column",
