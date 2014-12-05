@@ -75,4 +75,10 @@ setInterval(GetClock,1000);
     $( "#pb10" ).progressbar({
       value: 75
     });
+    $( "#pb11" ).progressbar({
+      value: 0
+    });
+    $( "#pb12" ).progressbar({
+      value: 0
+    });
 });
